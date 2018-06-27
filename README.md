@@ -1,5 +1,6 @@
 # MVCDemo
-1.主目录结构
+#### 主目录结构
+```
 --Features         //模块。包含各个模块的Model,View,Controller,Service
 --Categories            //类目。包含各种类的分类
 --Frameworks        //系统框架。包含导入的系统的框架
@@ -13,8 +14,10 @@
 -MVCDemoUITests
 -Products           // 系统自动生成的.app所在文件夹
 -Pods                   // 采用 CocoaPods 管理的第三方库。
+```
 
-2.模块目录结构
+#### 模块目录结构
+```
 -- Features
 ---Base             //MVC的基类或者通用类
 ----Models      //数据模型
@@ -26,5 +29,5 @@
 ----Views
 ----Controllers
 ----Service
-
 ...
+```
